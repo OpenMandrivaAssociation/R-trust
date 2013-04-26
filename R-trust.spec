@@ -1,6 +1,8 @@
 %global packname  trust
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
 Version:          0.1_2
 Release:          1
