@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          0.1_2
-Release:          1
+Release:          2
 Summary:          Trust Region Optimization
 Group:            Sciences/Mathematics
 License:          X11
