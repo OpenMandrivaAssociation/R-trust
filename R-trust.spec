@@ -4,13 +4,13 @@
 %define debug_package %{nil}
 
 Name:             R-%{packname}
-Version:          0.1_2
-Release:          2
+Version:          0.1.4
+Release:          1
 Summary:          Trust Region Optimization
 Group:            Sciences/Mathematics
 License:          X11
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.1-2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/trust_0.1-4.tar.gz
 BuildRequires:    R-devel
 BuildRequires:    Rmath-devel
 BuildRequires:    texlive-collection-latex 
@@ -43,11 +43,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
-
-
-%changelog
-* Sat Feb 18 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.1_2-1
-+ Revision: 776924
-- Import R-trust
-- Import R-trust
-
+%{rlibdir}/%{packname}/LICENSE
