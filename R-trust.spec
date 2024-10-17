@@ -10,7 +10,7 @@ Summary:          Trust Region Optimization
 
 Group:            Sciences/Mathematics
 License:          X11
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/trust_0.1-6.tar.gz
 BuildRequires:    R-devel
 BuildRequires:    Rmath-devel
